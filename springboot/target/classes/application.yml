@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+
+#数据库配置
+spring:
+  datasource:
+    #DB Configuration
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3386/jfblog?useUnicode=true&characterEncoding=utf-8&8allowWMulti
+
